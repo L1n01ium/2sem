@@ -77,7 +77,7 @@ public class Fraction extends Number {
     }
 
     public Fraction negate(Fraction da) {
-        return new Fraction(da.getDenominator() * (-1), da.getDenominator());
+        return new Fraction(-numerator, da.getDenominator());
     }
 
     public boolean isProper(Fraction da) {
